@@ -1,0 +1,27 @@
+table.mytable {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.mytable td, table.mytable th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+table.mytable tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.pagination, div#dataTable_filter{
+	float: right;
+}
+table#dataTable{
+    text-align:center;
+}
+@media screen and (min-width: 580px) {
+  .table-responsive{
+
+    overflow-x: visible;
+  }
+}
